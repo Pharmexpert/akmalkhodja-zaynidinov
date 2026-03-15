@@ -1,0 +1,1341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akmalkhodja Zaynidinov — Pharmaceutical Quality Expert</title>
+    <meta name="description"
+        content="Professional portfolio of Akmalkhodja Zaynidinov — Pharmaceutical QC/QA Expert, Pharmacopoeial Standards Developer, International Regulatory Specialist">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        :root {
+            --navy: #1A365D;
+            --navy-light: #234E82;
+            --gold: #C5963A;
+            --gold-light: #D4A94E;
+            --bg-white: #FAFBFD;
+            --bg-cream: #F5F0EB;
+            --bg-light-blue: #EDF2F7;
+            --bg-warm: #F7F4F0;
+            --text-dark: #1a202c;
+            --text-medium: #4a5568;
+            --text-light: #718096;
+            --border: #e2e8f0;
+            --shadow: 0 4px 20px rgba(26, 54, 93, 0.08);
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.7;
+            background: var(--bg-white)
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Playfair Display', serif;
+            color: var(--navy);
+            line-height: 1.3
+        }
+
+        a {
+            color: var(--navy);
+            text-decoration: none;
+            transition: color .3s
+        }
+
+        a:hover {
+            color: var(--gold)
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px
+        }
+
+        /* LANGUAGE SWITCHER */
+        .lang-switcher {
+            position: fixed;
+            top: 18px;
+            right: 24px;
+            z-index: 1000;
+            display: flex;
+            gap: 4px;
+            background: rgba(26, 54, 93, 0.92);
+            backdrop-filter: blur(12px);
+            border-radius: 28px;
+            padding: 4px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18)
+        }
+
+        .lang-btn {
+            border: none;
+            background: transparent;
+            color: rgba(255, 255, 255, 0.7);
+            font-family: 'Inter', sans-serif;
+            font-weight: 500;
+            font-size: 13px;
+            padding: 7px 14px;
+            border-radius: 24px;
+            cursor: pointer;
+            transition: all .3s;
+            letter-spacing: .5px
+        }
+
+        .lang-btn:hover {
+            color: #fff;
+            background: rgba(255, 255, 255, 0.12)
+        }
+
+        .lang-btn.active {
+            background: var(--gold);
+            color: #fff;
+            box-shadow: 0 2px 8px rgba(197, 150, 58, 0.4)
+        }
+
+        @media(max-width:600px) {
+            .lang-switcher {
+                top: 12px;
+                right: 12px;
+                padding: 3px
+            }
+
+            .lang-btn {
+                padding: 5px 10px;
+                font-size: 12px
+            }
+        }
+
+        /* NAV */
+        .navbar {
+            background: var(--navy);
+            padding: 0;
+            position: sticky;
+            top: 0;
+            z-index: 900;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15)
+        }
+
+        .nav-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 24px;
+            max-width: 1100px;
+            margin: 0 auto
+        }
+
+        .nav-logo {
+            font-family: 'Playfair Display', serif;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 600;
+            padding: 16px 0
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 0
+        }
+
+        .nav-links a {
+            color: rgba(255, 255, 255, 0.8);
+            padding: 18px 18px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all .3s;
+            border-bottom: 3px solid transparent;
+            letter-spacing: .3px
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: #fff;
+            border-bottom-color: var(--gold);
+            background: rgba(255, 255, 255, 0.05)
+        }
+
+        .mobile-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 16px 0
+        }
+
+        @media(max-width:768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--navy);
+                flex-direction: column;
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2)
+            }
+
+            .nav-links.open {
+                display: flex
+            }
+
+            .nav-links a {
+                padding: 14px 24px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+                border-left: 3px solid transparent;
+                border-bottom-width: 1px
+            }
+
+            .nav-links a:hover,
+            .nav-links a.active {
+                border-left-color: var(--gold);
+                border-bottom-color: rgba(255, 255, 255, 0.08)
+            }
+
+            .mobile-toggle {
+                display: block
+            }
+        }
+
+        /* HERO */
+        .hero {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 50%, #2D6CB4 100%);
+            color: #fff;
+            padding: 100px 0 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(197, 150, 58, 0.12) 0%, transparent 70%);
+            border-radius: 50%
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: -30%;
+            left: -10%;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
+            border-radius: 50%
+        }
+
+        .hero h1 {
+            font-size: clamp(28px, 4.5vw, 48px);
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1
+        }
+
+        .hero .subtitle {
+            font-size: clamp(15px, 2vw, 18px);
+            color: rgba(255, 255, 255, 0.85);
+            max-width: 700px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+            font-weight: 300;
+            line-height: 1.8
+        }
+
+        .hero .gold-line {
+            width: 80px;
+            height: 3px;
+            background: var(--gold);
+            margin: 24px auto;
+            border-radius: 2px;
+            position: relative;
+            z-index: 1
+        }
+
+        /* IMPACT NUMBERS */
+        .impact {
+            background: var(--bg-cream);
+            padding: 50px 0;
+            border-bottom: 1px solid var(--border)
+        }
+
+        .impact-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            text-align: center
+        }
+
+        .impact-item .num {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(32px, 4vw, 44px);
+            color: var(--navy);
+            font-weight: 700
+        }
+
+        .impact-item .label {
+            font-size: 13px;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-top: 4px
+        }
+
+        @media(max-width:600px) {
+            .impact-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px
+            }
+        }
+
+        /* SECTIONS */
+        .section {
+            padding: 70px 0
+        }
+
+        .section-title {
+            font-size: clamp(26px, 3.5vw, 36px);
+            text-align: center;
+            margin-bottom: 12px
+        }
+
+        .section-line {
+            width: 60px;
+            height: 3px;
+            background: var(--gold);
+            margin: 0 auto 40px;
+            border-radius: 2px
+        }
+
+        /* EXPERTISE */
+        .expertise {
+            background: var(--bg-white)
+        }
+
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px
+        }
+
+        .expertise-card {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 32px 24px;
+            text-align: center;
+            transition: all .3s;
+            box-shadow: var(--shadow)
+        }
+
+        .expertise-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 36px rgba(26, 54, 93, 0.12);
+            border-color: var(--gold)
+        }
+
+        .expertise-card .icon {
+            font-size: 36px;
+            margin-bottom: 16px
+        }
+
+        .expertise-card h3 {
+            font-size: 18px;
+            margin-bottom: 10px
+        }
+
+        .expertise-card p {
+            font-size: 14px;
+            color: var(--text-medium);
+            line-height: 1.7
+        }
+
+        @media(max-width:768px) {
+            .expertise-grid {
+                grid-template-columns: 1fr
+            }
+        }
+
+        /* ABOUT */
+        .about {
+            background: var(--bg-light-blue)
+        }
+
+        .about-content {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 48px;
+            align-items: start
+        }
+
+        .about-photo {
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: cover;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(26, 54, 93, 0.15);
+            border: 4px solid #fff
+        }
+
+        .about-text p {
+            margin-bottom: 16px;
+            font-size: 15px;
+            color: var(--text-medium)
+        }
+
+        .about-text .quote {
+            background: var(--bg-warm);
+            border-left: 4px solid var(--gold);
+            padding: 20px 24px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 24px;
+            font-style: italic;
+            color: var(--text-dark);
+            font-size: 14px;
+            line-height: 1.8
+        }
+
+        .about-text .quote-author {
+            display: block;
+            margin-top: 10px;
+            font-style: normal;
+            font-weight: 600;
+            color: var(--navy);
+            font-size: 13px
+        }
+
+        @media(max-width:768px) {
+            .about-content {
+                grid-template-columns: 1fr;
+                text-align: center
+            }
+
+            .about-photo {
+                max-width: 220px;
+                margin: 0 auto
+            }
+        }
+
+        /* EDUCATION & SKILLS */
+        .education {
+            background: var(--bg-warm)
+        }
+
+        .edu-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 28px;
+            margin-bottom: 40px
+        }
+
+        .edu-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 28px;
+            box-shadow: var(--shadow);
+            border-top: 4px solid var(--navy)
+        }
+
+        .edu-card h3 {
+            font-size: 17px;
+            margin-bottom: 6px
+        }
+
+        .edu-card .year {
+            color: var(--gold);
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 8px
+        }
+
+        .edu-card p {
+            font-size: 14px;
+            color: var(--text-medium)
+        }
+
+        .skills-section h3 {
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 24px
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px
+        }
+
+        .skill-item {
+            background: #fff;
+            border-radius: 10px;
+            padding: 18px 20px;
+            box-shadow: var(--shadow);
+            border-left: 3px solid var(--gold)
+        }
+
+        .skill-item strong {
+            color: var(--navy);
+            font-size: 14px
+        }
+
+        .skill-item p {
+            font-size: 13px;
+            color: var(--text-medium);
+            margin-top: 4px
+        }
+
+        @media(max-width:768px) {
+
+            .edu-grid,
+            .skills-grid {
+                grid-template-columns: 1fr
+            }
+        }
+
+        /* EXPERIENCE */
+        .experience {
+            background: var(--bg-white)
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 32px
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--navy), var(--gold))
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 36px;
+            background: #fff;
+            border-radius: 12px;
+            padding: 24px 28px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border)
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -28px;
+            top: 28px;
+            width: 12px;
+            height: 12px;
+            background: var(--gold);
+            border-radius: 50%;
+            border: 3px solid var(--bg-white);
+            box-shadow: 0 0 0 2px var(--navy)
+        }
+
+        .timeline-item h3 {
+            font-size: 17px;
+            margin-bottom: 4px
+        }
+
+        .timeline-item .period {
+            color: var(--gold);
+            font-weight: 600;
+            font-size: 13px;
+            margin-bottom: 4px
+        }
+
+        .timeline-item .org {
+            color: var(--text-light);
+            font-size: 13px;
+            margin-bottom: 12px;
+            font-style: italic
+        }
+
+        .timeline-item ul {
+            list-style: none;
+            padding: 0
+        }
+
+        .timeline-item li {
+            position: relative;
+            padding-left: 18px;
+            margin-bottom: 6px;
+            font-size: 14px;
+            color: var(--text-medium)
+        }
+
+        .timeline-item li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+            font-weight: 700
+        }
+
+        /* EVENTS TABLE */
+        .events {
+            background: var(--bg-cream)
+        }
+
+        .events-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow)
+        }
+
+        .events-table th {
+            background: var(--navy);
+            color: #fff;
+            padding: 14px 18px;
+            text-align: left;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600
+        }
+
+        .events-table td {
+            padding: 14px 18px;
+            font-size: 14px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-medium)
+        }
+
+        .events-table tr:last-child td {
+            border-bottom: none
+        }
+
+        .events-table tr:hover td {
+            background: var(--bg-light-blue)
+        }
+
+        @media(max-width:768px) {
+            .events-table {
+                font-size: 13px
+            }
+
+            .events-table th,
+            .events-table td {
+                padding: 10px 12px
+            }
+        }
+
+        /* PUBLICATIONS */
+        .publications {
+            background: var(--bg-light-blue)
+        }
+
+        .pub-list {
+            list-style: none;
+            padding: 0
+        }
+
+        .pub-list li {
+            background: #fff;
+            border-radius: 10px;
+            padding: 18px 22px;
+            margin-bottom: 12px;
+            box-shadow: var(--shadow);
+            font-size: 14px;
+            color: var(--text-medium);
+            line-height: 1.7;
+            border-left: 3px solid var(--navy);
+            transition: border-color .3s
+        }
+
+        .pub-list li:hover {
+            border-left-color: var(--gold)
+        }
+
+        .pub-list .pub-num {
+            font-family: 'Playfair Display', serif;
+            color: var(--navy);
+            font-weight: 700;
+            font-size: 16px;
+            margin-right: 8px
+        }
+
+        /* WORKING GROUPS */
+        .groups {
+            background: var(--bg-warm)
+        }
+
+        .group-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px
+        }
+
+        .group-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 22px;
+            box-shadow: var(--shadow);
+            display: flex;
+            gap: 16px;
+            align-items: start;
+            transition: transform .3s
+        }
+
+        .group-card:hover {
+            transform: translateY(-2px)
+        }
+
+        .group-card .org-icon {
+            font-size: 28px;
+            flex-shrink: 0
+        }
+
+        .group-card h4 {
+            font-size: 15px;
+            margin-bottom: 4px
+        }
+
+        .group-card p {
+            font-size: 13px;
+            color: var(--text-medium)
+        }
+
+        @media(max-width:768px) {
+            .group-grid {
+                grid-template-columns: 1fr
+            }
+        }
+
+        /* CONTACT */
+        .contact {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+            color: #fff;
+            padding: 70px 0
+        }
+
+        .contact h2 {
+            color: #fff
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-top: 32px
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 18px
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            font-size: 15px
+        }
+
+        .contact-item .ci-icon {
+            width: 44px;
+            height: 44px;
+            background: rgba(197, 150, 58, 0.2);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            flex-shrink: 0
+        }
+
+        .contact-item a {
+            color: rgba(255, 255, 255, 0.9)
+        }
+
+        .contact-item a:hover {
+            color: var(--gold)
+        }
+
+        .contact-item span {
+            color: rgba(255, 255, 255, 0.85)
+        }
+
+        .contact-cta {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 32px;
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.1)
+        }
+
+        .contact-cta p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 15px;
+            line-height: 1.8
+        }
+
+        @media(max-width:768px) {
+            .contact-grid {
+                grid-template-columns: 1fr
+            }
+        }
+
+        /* FOOTER */
+        footer {
+            background: #0F2440;
+            color: rgba(255, 255, 255, 0.6);
+            text-align: center;
+            padding: 24px;
+            font-size: 13px
+        }
+
+        footer a {
+            color: var(--gold)
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- LANGUAGE SWITCHER -->
+    <div class="lang-switcher">
+        <button class="lang-btn active" onclick="switchLang('en')">EN</button>
+        <button class="lang-btn" onclick="switchLang('ru')">RU</button>
+        <button class="lang-btn" onclick="switchLang('uz')">UZ</button>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">Akmalkhodja Zaynidinov</a>
+            <button class="mobile-toggle"
+                onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+            <div class="nav-links">
+                <a href="#home" class="active" data-i18n="nav_home">Home</a>
+                <a href="#about" data-i18n="nav_about">About</a>
+                <a href="#experience" data-i18n="nav_experience">Experience</a>
+                <a href="#publications" data-i18n="nav_publications">Publications</a>
+                <a href="#contact" data-i18n="nav_contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 data-i18n="hero_title">Advancing Pharmaceutical Quality —<br>From Laboratory to Global Standards</h1>
+            <div class="gold-line"></div>
+            <p class="subtitle" data-i18n="hero_subtitle">Pharmaceutical QC/QA Expert · Pharmacopoeial Standards
+                Developer · International Regulatory Specialist — Tashkent, Uzbekistan</p>
+        </div>
+    </section>
+
+    <!-- IMPACT NUMBERS -->
+    <section class="impact">
+        <div class="container">
+            <div class="impact-grid">
+                <div class="impact-item">
+                    <div class="num">40+</div>
+                    <div class="label" data-i18n="impact_mono">Monographs Developed</div>
+                </div>
+                <div class="impact-item">
+                    <div class="num">7+</div>
+                    <div class="label" data-i18n="impact_years">Years in Pharma QC/QA</div>
+                </div>
+                <div class="impact-item">
+                    <div class="num">10+</div>
+                    <div class="label" data-i18n="impact_pubs">Scientific Publications</div>
+                </div>
+                <div class="impact-item">
+                    <div class="num">6+</div>
+                    <div class="label" data-i18n="impact_events">International Events</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERTISE -->
+    <section class="section expertise">
+        <div class="container">
+            <h2 class="section-title" data-i18n="expertise_title">Key Expertise Areas</h2>
+            <div class="section-line"></div>
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="icon">🔬</div>
+                    <h3 data-i18n="exp1_title">Quality Control & Assurance</h3>
+                    <p data-i18n="exp1_desc">Over 7 years of hands-on experience in pharmaceutical QC/QA, GMP
+                        compliance, and ISO 17025 standards implementation.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="icon">📜</div>
+                    <h3 data-i18n="exp2_title">Pharmacopoeial Standards</h3>
+                    <p data-i18n="exp2_desc">Directly authored and edited 40+ monographs for the State Pharmacopoeia of
+                        Uzbekistan — Volumes 1–3.</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="icon">🌍</div>
+                    <h3 data-i18n="exp3_title">International Collaboration</h3>
+                    <p data-i18n="exp3_desc">Active participant in WHO, EDQM, EAEU, and Organization of Turkic States —
+                        shaping harmonized pharmaceutical standards worldwide.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about_title">About Me</h2>
+            <div class="section-line"></div>
+            <div class="about-content">
+                <img src="https://media.licdn.com/dms/image/v2/C4D03AQEumoHrPSdf6w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1664059727494?e=1775088000&v=beta&t=bAFC6hYY9_Q6pmd1bT8NX6deFKfum3LaZzw9jVfRqRE"
+                    alt="Akmalkhodja Zaynidinov" class="about-photo">
+                <div class="about-text">
+                    <p data-i18n="about_p1">I am Akmalkhodja Zaynidinov — a pharmaceutical scientist and regulatory
+                        specialist with a mission to elevate the quality standards of medicines in Uzbekistan and
+                        Central Asia to the level of global best practices.</p>
+                    <p data-i18n="about_p2">Since 2017, I have been at the forefront of developing the State
+                        Pharmacopoeia of the Republic of Uzbekistan — contributing to the drafting, editing, and
+                        international harmonization of over 40 monographs for active pharmaceutical ingredients (APIs),
+                        dosage forms, and general analytical methods.</p>
+                    <p data-i18n="about_p3">As Chief Specialist at the Center for Pharmaceutical Product Safety, I
+                        combine deep analytical expertise with a passion for global collaboration — from WHO sessions in
+                        Delhi and Geneva to EDQM events in Strasbourg.</p>
+                    <p data-i18n="about_p4">My goal is simple: ensure that every medicine reaching a patient meets the
+                        highest standards of quality, safety, and efficacy.</p>
+                    <div class="quote">
+                        <span data-i18n="quote_text">"A.O. Zaynidinov is a highly erudite specialist, well-versed in the
+                            development and expert evaluation of quality standards for medicinal products. He maintains
+                            high professional standards, commands respect among his colleagues, and is capable of
+                            delivering presentations and webinars at a professional level."</span>
+                        <span class="quote-author" data-i18n="quote_author">— Official Expert Summary, Center for
+                            Pharmaceutical Product Safety</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION & SKILLS -->
+    <section class="section education">
+        <div class="container">
+            <h2 class="section-title" data-i18n="edu_title">Education & Skills</h2>
+            <div class="section-line"></div>
+            <div class="edu-grid">
+                <div class="edu-card">
+                    <div class="year">2015 – 2017</div>
+                    <h3 data-i18n="edu_msc">Master of Science</h3>
+                    <p data-i18n="edu_msc_desc">Pharmaceutical Manufacturing Technology · Tashkent Pharmaceutical
+                        Institute · Graduated with Honours</p>
+                </div>
+                <div class="edu-card">
+                    <div class="year">2011 – 2015</div>
+                    <h3 data-i18n="edu_bsc">Bachelor of Science</h3>
+                    <p data-i18n="edu_bsc_desc">Pharmacy · Tashkent Pharmaceutical Institute · Prof. M.A. Azizov
+                        Scholarship · Graduated with Honours</p>
+                </div>
+            </div>
+            <div class="skills-section">
+                <h3 data-i18n="skills_title">Professional Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item"><strong data-i18n="sk1_t">Pharmaceutical Standards</strong>
+                        <p data-i18n="sk1_d">Monograph development, pharmacopoeial harmonization (Ph. Eur., USP, BP, JP)
+                        </p>
+                    </div>
+                    <div class="skill-item"><strong data-i18n="sk2_t">Quality Systems</strong>
+                        <p data-i18n="sk2_d">GMP, GLP, ISO/IEC 17025, ISO 9001, QA/QC systems</p>
+                    </div>
+                    <div class="skill-item"><strong data-i18n="sk3_t">Analytical Methods</strong>
+                        <p data-i18n="sk3_d">Method validation, dissolution testing, HPLC, spectrophotometry</p>
+                    </div>
+                    <div class="skill-item"><strong data-i18n="sk4_t">Regulatory Affairs</strong>
+                        <p data-i18n="sk4_d">Registration dossier review, NTD development, regulatory compliance</p>
+                    </div>
+                    <div class="skill-item"><strong data-i18n="sk5_t">Scientific Translation</strong>
+                        <p data-i18n="sk5_d">English ↔ Russian ↔ Uzbek pharmaceutical texts</p>
+                    </div>
+                    <div class="skill-item"><strong data-i18n="sk6_t">Digital Tools</strong>
+                        <p data-i18n="sk6_d">MS Office, Adobe Acrobat, database systems, digital archiving</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE TIMELINE -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title" data-i18n="career_title">Career Path</h2>
+            <div class="section-line"></div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="period">2023 – Present</div>
+                    <h3 data-i18n="job1_title">Chief Specialist</h3>
+                    <div class="org" data-i18n="job1_org">State Pharmacopoeia Development Department, Center for
+                        Pharmaceutical Product Safety</div>
+                    <ul>
+                        <li data-i18n="job1_1">Led the development and international harmonization of 40+ pharmacopoeial
+                            monographs</li>
+                        <li data-i18n="job1_2">Contributed to Volumes 1–3 of the State Pharmacopoeia of Uzbekistan</li>
+                        <li data-i18n="job1_3">Scientific Secretary of the Editorial Council Board (since 2023)</li>
+                        <li data-i18n="job1_4">Represented Uzbekistan at WHO IMWP (Delhi, 2025) with two official
+                            presentations</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <div class="period">2019 – 2023</div>
+                    <h3 data-i18n="job2_title">Leading Specialist</h3>
+                    <div class="org" data-i18n="job2_org">State Center for Expertise and Standardization of Medicines
+                    </div>
+                    <ul>
+                        <li data-i18n="job2_1">Expert review of registration dossiers — pharmaceutical development &
+                            analytical validation</li>
+                        <li data-i18n="job2_2">Harmonized national requirements with Ph. Eur., USP, and WHO approaches
+                        </li>
+                        <li data-i18n="job2_3">Scientific translation of pharmacopoeial texts (English–Russian–Uzbek)
+                        </li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <div class="period">2018 – 2019</div>
+                    <h3 data-i18n="job3_title">Senior Specialist</h3>
+                    <div class="org" data-i18n="job3_org">State Center for Expertise and Standardization of Medicines
+                    </div>
+                    <ul>
+                        <li data-i18n="job3_1">Ensured compliance with GMP, ISO 9001, and national standards</li>
+                        <li data-i18n="job3_2">QA, in-process control (IPC), and documentation verification</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <div class="period">2017 – 2018</div>
+                    <h3 data-i18n="job4_title">Junior Specialist</h3>
+                    <div class="org" data-i18n="job4_org">Pharmacopoeia Committee, State Center for Expertise and
+                        Standardization</div>
+                    <ul>
+                        <li data-i18n="job4_1">Collected and systematized scientific data for pharmacopoeial standards
+                        </li>
+                        <li data-i18n="job4_2">Scientific translation of pharmacopoeial texts</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERNATIONAL EVENTS -->
+    <section class="section events">
+        <div class="container">
+            <h2 class="section-title" data-i18n="events_title">International Events</h2>
+            <div class="section-line"></div>
+            <table class="events-table">
+                <thead>
+                    <tr>
+                        <th data-i18n="ev_date">Date</th>
+                        <th data-i18n="ev_event">Event</th>
+                        <th data-i18n="ev_loc">Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Feb 2025</td>
+                        <td data-i18n="ev1">15th International Meeting of World Pharmacopoeias (IMWP), WHO — 2
+                            presentations</td>
+                        <td>🇮🇳 Delhi, India</td>
+                    </tr>
+                    <tr>
+                        <td>Oct 2024</td>
+                        <td data-i18n="ev2">58th Session of the WHO Expert Committee on Specifications for
+                            Pharmaceutical Preparations</td>
+                        <td>🇨🇭 Geneva</td>
+                    </tr>
+                    <tr>
+                        <td>Jun 2024</td>
+                        <td data-i18n="ev3">EDQM International Conference — 60 years of EDQM</td>
+                        <td>🇫🇷 Strasbourg</td>
+                    </tr>
+                    <tr>
+                        <td>Oct 2023</td>
+                        <td data-i18n="ev4">57th Session of the WHO Expert Committee</td>
+                        <td>🇨🇭 Geneva</td>
+                    </tr>
+                    <tr>
+                        <td>Jul 2023</td>
+                        <td data-i18n="ev5">Study visit to U.S. Pharmacopoeial Convention (USP)</td>
+                        <td>🇺🇸 Washington</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="section publications">
+        <div class="container">
+            <h2 class="section-title" data-i18n="pub_title">Selected Publications</h2>
+            <div class="section-line"></div>
+            <ol class="pub-list">
+                <li><span class="pub-num">1.</span> A. Zaynidinov, Kh. Djalilov. "Study of the morphological indicators
+                    of the ciprofloxacin substance samples." Pharmaceutical Journal №01/2025, pp. 42–47</li>
+                <li><span class="pub-num">2.</span> A. Zaynidinov, Kh. Djalilov. "Study of dependence of technological
+                    properties of ciprofloxacin substances on the shape and size of particles." FIP, Pharmacy Education
+                    (2025)</li>
+                <li><span class="pub-num">3.</span> A. Zaynidinov, Kh. Djalilov. "On the Status of Registration of
+                    Ciprofloxacin Medications in the Republic of Uzbekistan." V International Conference, Tashkent, Oct
+                    2024</li>
+                <li><span class="pub-num">4.</span> A. Zaynidinov. "Research on determining the optimal residual
+                    moisture content of ciprofloxacin substance." III International Conference, Tashkent, 2024</li>
+                <li><span class="pub-num">5.</span> A.O. Zaynidinov, V.R. Khaydarov. "Research on dry extract of
+                    purslane for obtaining biologically active substances." VII All-Russian Scientific Conference, Saint
+                    Petersburg, 2017</li>
+                <li><span class="pub-num">6.</span> Zaynidinov A.O., Khaydarov V.R. "Development of a methodology for
+                    quantitative determination of flavonoids in dry extract of purslane." Republican Conference,
+                    Tashkent, 2016</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- WORKING GROUPS -->
+    <section class="section groups">
+        <div class="container">
+            <h2 class="section-title" data-i18n="groups_title">Working Groups & Boards</h2>
+            <div class="section-line"></div>
+            <div class="group-grid">
+                <div class="group-card">
+                    <div class="org-icon">🌐</div>
+                    <div>
+                        <h4>WHO</h4>
+                        <p data-i18n="g1">Presenter at 15th IMWP, Delhi, India (2025)</p>
+                    </div>
+                </div>
+                <div class="group-card">
+                    <div class="org-icon">🇪🇺</div>
+                    <div>
+                        <h4>EAEU</h4>
+                        <p data-i18n="g2">Regular member of the Pharmacopoeial Committee</p>
+                    </div>
+                </div>
+                <div class="group-card">
+                    <div class="org-icon">🏛️</div>
+                    <div>
+                        <h4 data-i18n="g3_t">Organization of Turkic States</h4>
+                        <p data-i18n="g3">Active member — Working Group on Pharmacopoeia of Turkic States</p>
+                    </div>
+                </div>
+                <div class="group-card">
+                    <div class="org-icon">📘</div>
+                    <div>
+                        <h4 data-i18n="g4_t">Editorial Board</h4>
+                        <p data-i18n="g4">Scientific Secretary (2019–2023), Editorial Council Board member (since 2023)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact_title">Let's Connect</h2>
+            <div class="section-line"></div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="ci-icon">✉️</div><a href="mailto:texnopharm@gmail.com">texnopharm@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon">📱</div><span>+998 (90) 812 93 78</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon">☎️</div><span>+998 (71) 203 01 01</span>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon">🔗</div><a
+                            href="https://www.linkedin.com/in/akmalkhodja-zaynidinov-732813a5/" target="_blank">LinkedIn
+                            Profile</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon">📍</div><span data-i18n="location">Tashkent, Uzbekistan</span>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <p data-i18n="contact_cta">Whether you are a fellow pharmacopoeia expert, a pharmaceutical company
+                        seeking regulatory guidance, or an organization looking for collaboration — I would be glad to
+                        hear from you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Akmalkhodja Zaynidinov · <span data-i18n="footer_title">Pharmaceutical Quality Expert</span> ·
+            Tashkent, Uzbekistan · <a href="mailto:texnopharm@gmail.com">texnopharm@gmail.com</a></p>
+    </footer>
+
+    <script>
+        const translations = {
+            ru: {
+                nav_home: "Главная", nav_about: "Обо мне", nav_experience: "Опыт", nav_publications: "Публикации", nav_contact: "Контакты",
+                hero_title: "Продвижение фармацевтического качества —<br>От лаборатории к мировым стандартам",
+                hero_subtitle: "Эксперт по контролю качества · Разработчик фармакопейных стандартов · Международный специалист по регуляторным вопросам — Ташкент, Узбекистан",
+                impact_mono: "Разработано монографий", impact_years: "Лет в фарм. QC/QA", impact_pubs: "Научных публикаций", impact_events: "Международных мероприятий",
+                expertise_title: "Ключевые области экспертизы",
+                exp1_title: "Контроль и обеспечение качества", exp1_desc: "Более 7 лет практического опыта в фармацевтическом QC/QA, соответствии GMP и внедрении стандартов ISO 17025.",
+                exp2_title: "Фармакопейные стандарты", exp2_desc: "Непосредственное авторство и редактирование 40+ монографий для Государственной фармакопеи Узбекистана — Тома 1–3.",
+                exp3_title: "Международное сотрудничество", exp3_desc: "Активный участник ВОЗ, EDQM, ЕАЭС и Организации тюркских государств — формирование гармонизированных фармацевтических стандартов.",
+                about_title: "Обо мне",
+                about_p1: "Я — Акмалходжа Зайниддинов, учёный-фармацевт и специалист по регуляторным вопросам с миссией поднять стандарты качества лекарственных средств в Узбекистане и Центральной Азии до уровня мировой практики.",
+                about_p2: "С 2017 года я нахожусь в авангарде разработки Государственной фармакопеи Республики Узбекистан — участвуя в разработке, редактировании и международной гармонизации более 40 монографий для активных фармацевтических субстанций (АФС), лекарственных форм и общих аналитических методов.",
+                about_p3: "Как главный специалист Центра безопасности фармацевтической продукции, я сочетаю глубокую аналитическую экспертизу со стремлением к глобальному сотрудничеству — от сессий ВОЗ в Дели и Женеве до мероприятий EDQM в Страсбурге.",
+                about_p4: "Моя цель проста: обеспечить, чтобы каждое лекарство, попадающее к пациенту, соответствовало высочайшим стандартам качества, безопасности и эффективности.",
+                quote_text: "«А.О. Зайниддинов — высокоэрудированный специалист, хорошо разбирающийся в разработке и экспертной оценке стандартов качества лекарственных средств. Он поддерживает высокие профессиональные стандарты, пользуется уважением среди коллег и способен проводить презентации и вебинары на профессиональном уровне.»",
+                quote_author: "— Официальная экспертная характеристика, Центр безопасности фармацевтической продукции",
+                edu_title: "Образование и навыки", edu_msc: "Магистр наук", edu_bsc: "Бакалавр наук",
+                edu_msc_desc: "Технология фармацевтического производства · Ташкентский фармацевтический институт · С отличием",
+                edu_bsc_desc: "Фармация · Ташкентский фармацевтический институт · Стипендия им. проф. М.А. Азизова · С отличием",
+                skills_title: "Профессиональные навыки",
+                sk1_t: "Фармацевтические стандарты", sk1_d: "Разработка монографий, гармонизация фармакопей (Ph. Eur., USP, BP, JP)",
+                sk2_t: "Системы качества", sk2_d: "GMP, GLP, ISO/IEC 17025, ISO 9001, системы QA/QC",
+                sk3_t: "Аналитические методы", sk3_d: "Валидация методов, тест растворения, ВЭЖХ, спектрофотометрия",
+                sk4_t: "Регуляторные вопросы", sk4_d: "Экспертиза регистрационных досье, разработка НТД, регуляторное соответствие",
+                sk5_t: "Научный перевод", sk5_d: "Англ. ↔ Рус. ↔ Узб. фармацевтические тексты",
+                sk6_t: "Цифровые инструменты", sk6_d: "MS Office, Adobe Acrobat, системы баз данных, цифровая архивация",
+                career_title: "Карьерный путь",
+                job1_title: "Главный специалист", job1_org: "Отдел разработки Государственной фармакопеи, Центр безопасности фармацевтической продукции",
+                job1_1: "Руководил разработкой и международной гармонизацией 40+ фармакопейных монографий",
+                job1_2: "Внёс вклад в Тома 1–3 Государственной фармакопеи Узбекистана",
+                job1_3: "Учёный секретарь Редакционного совета (с 2023 г.)",
+                job1_4: "Представлял Узбекистан на WHO IMWP (Дели, 2025) с двумя официальными докладами",
+                job2_title: "Ведущий специалист", job2_org: "Государственный центр экспертизы и стандартизации лекарственных средств",
+                job2_1: "Экспертиза регистрационных досье — фармразработка и аналитическая валидация",
+                job2_2: "Гармонизация национальных требований с Ph. Eur., USP и подходами ВОЗ",
+                job2_3: "Научный перевод фармакопейных текстов (англ.–рус.–узб.)",
+                job3_title: "Старший специалист", job3_org: "Государственный центр экспертизы и стандартизации лекарственных средств",
+                job3_1: "Обеспечение соответствия GMP, ISO 9001 и национальным стандартам",
+                job3_2: "Контроль качества, внутрипроизводственный контроль и верификация документации",
+                job4_title: "Младший специалист", job4_org: "Фармакопейный комитет, Гос. центр экспертизы и стандартизации",
+                job4_1: "Сбор и систематизация научных данных для фармакопейных стандартов",
+                job4_2: "Научный перевод фармакопейных текстов",
+                events_title: "Международные мероприятия", ev_date: "Дата", ev_event: "Мероприятие", ev_loc: "Место",
+                ev1: "15-е Международное совещание мировых фармакопей (IMWP), ВОЗ — 2 доклада",
+                ev2: "58-я сессия Комитета экспертов ВОЗ по спецификациям фармацевтических препаратов",
+                ev3: "Международная конференция EDQM — 60 лет EDQM",
+                ev4: "57-я сессия Комитета экспертов ВОЗ",
+                ev5: "Ознакомительный визит в Фармакопейную конвенцию США (USP)",
+                pub_title: "Избранные публикации",
+                groups_title: "Рабочие группы и советы",
+                g1: "Докладчик на 15-м IMWP, Дели, Индия (2025)", g2: "Постоянный член Фармакопейного комитета",
+                g3_t: "Организация тюркских государств", g3: "Активный член — Рабочая группа по Фармакопее тюркских государств",
+                g4_t: "Редакционный совет", g4: "Учёный секретарь (2019–2023), член Редакционного совета (с 2023 г.)",
+                contact_title: "Свяжитесь со мной", location: "Ташкент, Узбекистан",
+                contact_cta: "Являетесь ли вы экспертом в области фармакопеи, фармацевтической компанией, ищущей регуляторные консультации, или организацией, заинтересованной в сотрудничестве — я буду рад услышать вас.",
+                footer_title: "Эксперт по фармацевтическому качеству"
+            },
+            uz: {
+                nav_home: "Bosh sahifa", nav_about: "Men haqimda", nav_experience: "Tajriba", nav_publications: "Nashrlar", nav_contact: "Aloqa",
+                hero_title: "Farmatsevtika sifatini yuksaltirish —<br>Laboratoriyadan jahon standartlarigacha",
+                hero_subtitle: "Farmatsevtik QC/QA mutaxassisi · Farmakopeyaviy standartlar ishlab chiquvchisi · Xalqaro regulyator mutaxassis — Toshkent, O'zbekiston",
+                impact_mono: "Monografiyalar ishlab chiqilgan", impact_years: "Yil farma QC/QA da", impact_pubs: "Ilmiy nashrlar", impact_events: "Xalqaro tadbirlar",
+                expertise_title: "Asosiy mutaxassislik sohalari",
+                exp1_title: "Sifat nazorati va ta'minoti", exp1_desc: "Farmatsevtik QC/QA, GMP muvofiqlik va ISO 17025 standartlarini joriy etishda 7+ yillik amaliy tajriba.",
+                exp2_title: "Farmakopeyaviy standartlar", exp2_desc: "O'zbekiston Davlat farmakopeyasi uchun 40+ monografiyani bevosita yozish va tahrirlash — 1–3 tomlar.",
+                exp3_title: "Xalqaro hamkorlik", exp3_desc: "JST, EDQM, YOII va Turkiy davlatlar tashkilotida faol ishtirokchi — jahon bo'ylab uyg'unlashtirilgan farmatsevtik standartlarni shakllantirish.",
+                about_title: "Men haqimda",
+                about_p1: "Men Akmalxo'ja Zayniddinov — O'zbekiston va Markaziy Osiyoda dori vositalari sifat standartlarini jahon amaliyoti darajasiga ko'tarish missiyasiga ega farmatsevt-olim va regulyator mutaxassisiman.",
+                about_p2: "2017 yildan buyon men O'zbekiston Respublikasi Davlat farmakopeyasini ishlab chiqishning bosh saflarida turibman — faol farmatsevtik subtsantsiyalar (AFS), dori shakllari va umumiy analitik usullar uchun 40 dan ortiq monografiyalarni loyihalash, tahrirlash va xalqaro uyg'unlashtirish ishlarida qatnashmoqdaman.",
+                about_p3: "Farmatsevtik mahsulot xavfsizligi markazida bosh mutaxassis sifatida men chuqur analitik tajribani global hamkorlikka bo'lgan ishtiyoq bilan birlashtiraman — Dehlidagi va Jenevaadagi JST sessiyalaridan tortib Strasburgdagi EDQM tadbirlarigacha.",
+                about_p4: "Mening maqsadim oddiy: bemorga yetib boradigan har bir dori vositasi sifat, xavfsizlik va samaradorlikning eng yuqori standartlariga javob berishini ta'minlash.",
+                quote_text: "«A.O. Zayniddinov — dori vositalari sifat standartlarini ishlab chiqish va ekspert baholashda yaxshi ma'lumotga ega, yuqori erudittsiyali mutaxassis. U yuqori professional standartlarni saqlaydi, hamkasblari orasida hurmatga sazovordir va professional darajada taqdimotlar va vebinarlar o'tkazishga qodir.»",
+                quote_author: "— Rasmiy ekspert xulosasi, Farmatsevtik mahsulot xavfsizligi markazi",
+                edu_title: "Ta'lim va ko'nikmalar", edu_msc: "Fan magistri", edu_bsc: "Bakalavr",
+                edu_msc_desc: "Farmatsevtik ishlab chiqarish texnologiyasi · Toshkent farmatsevtika instituti · A'lo baholar bilan",
+                edu_bsc_desc: "Farmatsiya · Toshkent farmatsevtika instituti · Prof. M.A. Azizov stipendiyasi · A'lo baholar bilan",
+                skills_title: "Professional ko'nikmalar",
+                sk1_t: "Farmatsevtik standartlar", sk1_d: "Monografiya ishlab chiqish, farmakopeyaviy uyg'unlashtirish (Ph. Eur., USP, BP, JP)",
+                sk2_t: "Sifat tizimlari", sk2_d: "GMP, GLP, ISO/IEC 17025, ISO 9001, QA/QC tizimlari",
+                sk3_t: "Analitik usullar", sk3_d: "Usullarni validatsiyalash, erish sinovi, HPLC, spektrofotometriya",
+                sk4_t: "Regulyator masalalar", sk4_d: "Ro'yxatga olish dosyelerini ekspertiza qilish, NTD ishlab chiqish",
+                sk5_t: "Ilmiy tarjima", sk5_d: "Ingliz ↔ Rus ↔ O'zbek farmatsevtik matnlar",
+                sk6_t: "Raqamli vositalar", sk6_d: "MS Office, Adobe Acrobat, ma'lumotlar bazasi tizimlari",
+                career_title: "Karyera yo'li",
+                job1_title: "Bosh mutaxassis", job1_org: "Davlat farmakopeyasini ishlab chiqish bo'limi, Farmatsevtik mahsulot xavfsizligi markazi",
+                job1_1: "40+ farmakopeyaviy monografiyalarni ishlab chiqish va xalqaro uyg'unlashtirishga rahbarlik qildi",
+                job1_2: "O'zbekiston Davlat farmakopeyasining 1–3 tomlariga hissa qo'shdi",
+                job1_3: "Tahrir kengashi ilmiy kotibi (2023 yildan)",
+                job1_4: "O'zbekistonni JST IMWP (Dehli, 2025) da ikki rasmiy ma'ruza bilan taqdim etdi",
+                job2_title: "Yetakchi mutaxassis", job2_org: "Dori vositalarini ekspertiza qilish va standartlashtirish davlat markazi",
+                job2_1: "Ro'yxatga olish dosyelerini ekspert tekshiruvi — farmatsevtik ishlab chiqish va analitik validatsiya",
+                job2_2: "Milliy talablarni Ph. Eur., USP va JST yondashuvlari bilan uyg'unlashtirish",
+                job2_3: "Farmakopeyaviy matnlarni ilmiy tarjima qilish (ingl.–rus.–o'zb.)",
+                job3_title: "Katta mutaxassis", job3_org: "Dori vositalarini ekspertiza va standartlashtirish davlat markazi",
+                job3_1: "GMP, ISO 9001 va milliy standartlarga muvofiqlikni ta'minlash",
+                job3_2: "Sifat nazorati, jarayon ichidagi nazorat va hujjatlarni tekshirish",
+                job4_title: "Kichik mutaxassis", job4_org: "Farmakopeyaviy qo'mita, Ekspertiza va standartlashtirish davlat markazi",
+                job4_1: "Farmakopeyaviy standartlar uchun ilmiy ma'lumotlarni to'plash va tizimlashtirish",
+                job4_2: "Farmakopeyaviy matnlarni ilmiy tarjima qilish",
+                events_title: "Xalqaro tadbirlar", ev_date: "Sana", ev_event: "Tadbir", ev_loc: "Joy",
+                ev1: "15-Xalqaro jahon farmakopeyalari uchrashuvi (IMWP), JST — 2 ma'ruza",
+                ev2: "JST Farmatsevtik preparatlar spetsifikatsiyalari bo'yicha ekspertlar qo'mitasining 58-sessiyasi",
+                ev3: "EDQM Xalqaro konferentsiyasi — EDQM ning 60 yilligi",
+                ev4: "JST Ekspertlar qo'mitasining 57-sessiyasi",
+                ev5: "AQSh Farmakopeyaviy konventsiyasi (USP) ga tanishuv tashrifi",
+                pub_title: "Tanlangan nashrlar",
+                groups_title: "Ishchi guruhlar va kengashlar",
+                g1: "15-IMWP da ma'ruzachi, Dehli, Hindiston (2025)", g2: "Farmakopeyaviy qo'mitaning doimiy a'zosi",
+                g3_t: "Turkiy davlatlar tashkiloti", g3: "Faol a'zo — Turkiy davlatlar farmakopeyasi bo'yicha ishchi guruh",
+                g4_t: "Tahrir kengashi", g4: "Ilmiy kotib (2019–2023), Tahrir kengashi a'zosi (2023 yildan)",
+                contact_title: "Bog'lanaylik", location: "Toshkent, O'zbekiston",
+                contact_cta: "Farmakopeyaviy soha mutaxassisi, regulyator maslahat izlayotgan farmatsevtik kompaniya yoki hamkorlikka qiziquvchi tashkilot bo'lasizmi — sizdan xabar olishdan xursand bo'laman.",
+                footer_title: "Farmatsevtik sifat bo'yicha mutaxassis"
+            }
+        };
+        function switchLang(lang) {
+            document.querySelectorAll('.lang-btn').forEach(b => { b.classList.toggle('active', b.textContent.trim() === lang.toUpperCase()) });
+            if (lang === 'en') { document.querySelectorAll('[data-i18n]').forEach(el => { el.innerHTML = el.getAttribute('data-original') || el.innerHTML }); return }
+            const t = translations[lang]; if (!t) return;
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (!el.getAttribute('data-original')) el.setAttribute('data-original', el.innerHTML);
+                if (t[key]) el.innerHTML = t[key];
+            });
+        }
+        // Smooth scroll
+        document.querySelectorAll('.nav-links a').forEach(a => {
+            a.addEventListener('click', e => {
+                e.preventDefault(); const id = a.getAttribute('href');
+                document.querySelector(id)?.scrollIntoView({ behavior: 'smooth' });
+                document.querySelector('.nav-links').classList.remove('open');
+                document.querySelectorAll('.nav-links a').forEach(l => l.classList.remove('active')); a.classList.add('active')
+            });
+        });
+    </script>
+</body>
+
+</html>
